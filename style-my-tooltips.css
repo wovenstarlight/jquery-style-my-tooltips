@@ -1,14 +1,14 @@
 #s-m-t-tooltip {
-	background: #222; /* fallback if rgba not supported */
-	background: rgba(0, 0, 0, 0.8);
-	border-radius: 3px;
-	box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15),-1px -1px 0 rgba(255, 255, 255, 0.3);
-	color: #fff;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 11px;
-	line-height: 16px;
-	margin: 24px 14px 7px 12px;
-	max-width: 300px;
-	padding: 8px;
-	z-index: 10;
+  background: #222; /* fallback if rgba not supported */
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15),-1px -1px 0 rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  margin: 24px 14px 7px 12px;
+  max-width: 300px;
+  padding: 8px;
+  z-index: 10;
 }
