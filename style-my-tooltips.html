@@ -1,150 +1,150 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
+  <head>
 
-		<meta charset="utf-8">
+    <meta charset="utf-8">
 
-		<title>Style-my-tootltips jquery plugin demo</title>
+    <title>Style-my-tootltips jquery plugin demo</title>
 
-		<link href="style-my-tooltips.css" rel="stylesheet" type="text/css">
+    <link href="style-my-tooltips.css" rel="stylesheet" type="text/css">
 
-		<style type="text/css">
-		@import url('http://fonts.googleapis.com/css?family=Lobster');
+    <style type="text/css">
+    @import url('http://fonts.googleapis.com/css?family=Lobster');
 
-		body {
-			background: #c3d3d5;
-			color: #333;
-			font-family: Verdana, Geneva, sans-serif;
-			font-size: 13px;
-			line-height: 20px;
-			margin: 0;
-			padding: 0;
-		}
+    body {
+      background: #c3d3d5;
+      color: #333;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 13px;
+      line-height: 20px;
+      margin: 0;
+      padding: 0;
+    }
 
-		a,
-		a:visited {
-			background: #f9e5b7;
-			color: #000;
-			font-family: Georgia, 'Times New Roman', Times, serif;
-			font-size: 15px;
-			text-decoration: none;
-			text-shadow: 0 0 0 #fff;
-		}
+    a,
+    a:visited {
+      background: #f9e5b7;
+      color: #000;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 15px;
+      text-decoration: none;
+      text-shadow: 0 0 0 #fff;
+    }
 
-		a:hover,
-		a:focus {
-			background: #d11c24;
-			color: #f9e5b7;
-		}
+    a:hover,
+    a:focus {
+      background: #d11c24;
+      color: #f9e5b7;
+    }
 
-		.topleft,
-		.topright,
-		.bottomleft,
-		.bottomright {
-			margin: 20px;
-			position: absolute;
-		}
+    .topleft,
+    .topright,
+    .bottomleft,
+    .bottomright {
+      margin: 20px;
+      position: absolute;
+    }
 
-		.topleft {
-			left: 0;
-			top: 0;
-		}
+    .topleft {
+      left: 0;
+      top: 0;
+    }
 
-		.topright {
-			right: 0;
-			top: 0;
-		}
+    .topright {
+      right: 0;
+      top: 0;
+    }
 
-		.bottomleft {
-			bottom: 0;
-			left: 0;
-		}
+    .bottomleft {
+      bottom: 0;
+      left: 0;
+    }
 
-		.bottomright {
-			bottom: 0;
-			right: 0
-		}
+    .bottomright {
+      bottom: 0;
+      right: 0
+    }
 
-		.center {
-			margin: 60px auto;
-			position: relative;
-			width: 400px;
-		}
+    .center {
+      margin: 60px auto;
+      position: relative;
+      width: 400px;
+    }
 
-		.center p img {
-			float: left;
-			margin: 5px 15px 5px 0;
-		}
+    .center p img {
+      float: left;
+      margin: 5px 15px 5px 0;
+    }
 
-		h1,
-		p {
-			text-shadow: 1px 1px 1px #fff;
-		}
+    h1,
+    p {
+      text-shadow: 1px 1px 1px #fff;
+    }
 
-		h1 {
-			font-size: 36px;
-			font-family: 'Lobster', Georgia, serif;
-			color: #d11c24;
-		}
-		</style>
+    h1 {
+      font-size: 36px;
+      font-family: 'Lobster', Georgia, serif;
+      color: #d11c24;
+    }
+    </style>
 
-	</head>
-	<body>
+  </head>
+  <body>
 
-		<div class="center">
-			<h1>Style-my-tooltips demo</h1>
+    <div class="center">
+      <h1>Style-my-tooltips demo</h1>
 
-			<p>Style native browser tooltips easily with <strong>Style-My-Tooltips</strong> <a href="http://jquery.com/" title="Open jquery.com" target="_blank">jQuery</a> plugin. A very simple script to enhance the look of tooltips. It works just like browser's native tooltips with few options and styling via CSS. By default, the script affects any element with <em>title</em> attribute like <a href="#" title="Link title...">links</a>, paragraphs, images etc. You can easily set it to affect only specific classes.</p>
+      <p>Style native browser tooltips easily with <strong>Style-My-Tooltips</strong> <a href="http://jquery.com/" title="Open jquery.com" target="_blank">jQuery</a> plugin. A very simple script to enhance the look of tooltips. It works just like browser's native tooltips with few options and styling via CSS. By default, the script affects any element with <em>title</em> attribute like <a href="#" title="Link title...">links</a>, paragraphs, images etc. You can easily set it to affect only specific classes.</p>
 
-			<p><img src="kitty.jpg" width="200" height="150" alt="Obey the kitty!" title="Obey the kitty!" /></p>
+      <p><img src="kitty.jpg" width="200" height="150" alt="Obey the kitty!" title="Obey the kitty!" /></p>
 
-			<p>&larr; Hover your cursor over the image to see its title.</p>
+      <p>&larr; Hover your cursor over the image to see its title.</p>
 
-			<p title="Paragraph title">Hover your cursor over this paragraph to see its tooltip.</p>
+      <p title="Paragraph title">Hover your cursor over this paragraph to see its tooltip.</p>
 
-			<p><a href="http://manos.malihu.gr/style-my-tooltips-jquery-plugin" title="Go to original post at manos.malihu.gr">Plugin homepage</a></p>
+      <p><a href="http://manos.malihu.gr/style-my-tooltips-jquery-plugin" title="Go to original post at manos.malihu.gr">Plugin homepage</a></p>
 
-			<p>Style-my-tooltips automatically applies to dynamically generated elements. <a href="#" rel="add new element" title="Add new element">Click here to append new paragraphs</a> with styled tooltips.</p>
-		</div>
+      <p>Style-my-tooltips automatically applies to dynamically generated elements. <a href="#" rel="add new element" title="Add new element">Click here to append new paragraphs</a> with styled tooltips.</p>
+    </div>
 
-		<div class="topleft">
-			<a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a>
-		</div>
+    <div class="topleft">
+      <a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a>
+    </div>
 
-		<div class="topright">
-			<a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
-		</div>
+    <div class="topright">
+      <a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
+    </div>
 
-		<div class="bottomleft">
-			<a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
-		</div>
+    <div class="bottomleft">
+      <a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
+    </div>
 
-		<div class="bottomright">
-			<a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
-		</div>
+    <div class="bottomright">
+      <a href="#" title="Tooltip is always visible inside the viewport. Its position changes automatically according to document dimensions, page scroll and its location within browser window.">Hover me!</a> 
+    </div>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
-		<!-- Style-my-tooltips plugin script and style_my_tooltips function call with default option parameters -->
-		<script type="text/javascript" src="jquery.style-my-tooltips.js"></script>
-		<script>
-			jQuery.noConflict();
-			(function($) {
-				$(document).ready(function() {
-					$("[title]").style_my_tooltips({ 
-						tip_follows_cursor:false, // boolean
-						tip_delay_time:700, // milliseconds
-						tip_fade_speed:300 // milliseconds
-					});
+    <!-- Style-my-tooltips plugin script and style_my_tooltips function call with default option parameters -->
+    <script type="text/javascript" src="jquery.style-my-tooltips.js"></script>
+    <script>
+      jQuery.noConflict();
+      (function($) {
+        $(document).ready(function() {
+          $("[title]").style_my_tooltips({ 
+            tip_follows_cursor:false, // boolean
+            tip_delay_time:700, // milliseconds
+            tip_fade_speed:300 // milliseconds
+          });
 
-					//dynamically added elements demo function
-					$("a[rel='add new element']").click(function(e) {
-						e.preventDefault();
-						$(this).attr("title","Add another element").parent().after("<p title='New paragraph title'>This is a new paragraph! Hover to see the title.</p>");
-					});
-				});
-			})(jQuery);
-		</script>
+          //dynamically added elements demo function
+          $("a[rel='add new element']").click(function(e) {
+            e.preventDefault();
+            $(this).attr("title","Add another element").parent().after("<p title='New paragraph title'>This is a new paragraph! Hover to see the title.</p>");
+          });
+        });
+      })(jQuery);
+    </script>
 
-	</body>
+  </body>
 </html>
