@@ -41,7 +41,7 @@
 
       }
 
-      $(document).on("mouseout mousedown click", ".smt-current-element", function() {
+      $(document).on("mouseleave mousedown click", ".smt-current-element", function() {
 
         var $this = $(this);
 
@@ -62,7 +62,7 @@
 
       });
 
-      return this.on("mouseover", function(event) {
+      return this.on("mouseenter", function(event) {
 
         var $this = $(this);
         var title = $this.attr(options.attribute);
