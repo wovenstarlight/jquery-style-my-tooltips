@@ -5,6 +5,7 @@ A simple jQuery plugin to enhance the look of browser tooltips. Small in size (4
 ### Info
 
 Plugin author: [malihu](http://manos.malihu.gr)
+
 Plugin home: http://manos.malihu.gr/style-my-tooltips-jquery-plugin
 
 ### Usage
